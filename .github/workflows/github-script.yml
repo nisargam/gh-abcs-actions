@@ -22,7 +22,7 @@ jobs:
               repo: context.repo.repo,
               body: '👋 Thank you! We appreciate your contribution to this project.'
             })
-    apply-label:
+  apply-label:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/github-script@v6
